@@ -1,0 +1,35 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+#wrap{
+    text-align: center;
+}
+#wrap-center{
+    width: 1280px;
+    background-color: yellow;
+    display: inline-block;
+}
+
+#header{
+    text-align: left;
+}
+#header-hamburger{
+    margin-top: 18px;
+    padding: 10px;
+    display: inline-block;
+}
+
+#header-hamburger > div{
+    background-image: url(./sp_main.png);
+    width: 26px;
+    height: 26px;
+    background-size: 444px 434px;
+    background-position: -313px -330px;
+    background-repeat: no-repeat;
+}
+
+#main{
+    height: 500px;
+}
