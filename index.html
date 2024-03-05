@@ -33,15 +33,25 @@
             </div>
             <div id="search">
                 <form action="">           <!--form : input과 함께 쓰면 엔터를 쳤을 때 자동으로 검색 페이지로 넘어간다-->
-                    <a href="#">
+                    <a id = "search-svg" href="#">
                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M16.273 12.845 7.376 0H0v24h7.727V11.155L16.624 24H24V0h-7.727v12.845z">
                             </path>
                         </svg>
                     </a>
-                    <label for="search-input" class="blind">검색어 입력</label>
-                    <input id = "search-input" type="text" />
-                    <button calss="blind">검색</button>
+                    <label for="search-input" class="blind">검색어를 입력해주세요</label>
+                    <input id = "search-input" type="text" placeholder="검색어를 입력하세요.">
+                    <div id="search-right">
+                        <button href="#" id="search-keyboard">
+                            <span class="blind">입력도구</span>
+                        </button>
+                        <button href="#" id="search-recent">
+                            <span class="blind">자동완성/최근검색어펼치기</span>
+                        </button>
+                        <button id="search-button">
+                            <div><span class="blind">검색</span></div>
+                        </button>
+                    </div>
                 </form>
             </div>
             <div id="nav"></div>
