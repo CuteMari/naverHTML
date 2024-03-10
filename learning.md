@@ -82,11 +82,18 @@ nth-child보다는 **nth-of-tpye**를 추천!<br>
  - grid 요소들 사이의 gap을 설정한다
  - grid의 내부 색상을 바꾸고
  - gird 요소들의 내부 색상 또한 바꿔주면 됨
+----------------------------
+## 19. transform skewX()/skewY()
+: 요소의 모양을 기울이거나 비틀 수 있음
 
+## 20. 태그 속성 선택자
 
+## 21. 한 줄에 나타나는 텍스트가 너비를 초과할 때 ...으로 표현하는 방법
+1. text-overflow: ellipsis; <br>
+2. text-overflow: hidden; => 너비를 넘어가는 부분은 ...으로 나옴<br>
+3. white-space: nowrap; => 텍스트가 접히지 않는다 => 한 줄로만 표현됨
 
-
-
+## 22. 빈 공간을 없앨 때에는 부모 요소를 flex로 바꿔주자
 
 
 
