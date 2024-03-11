@@ -94,8 +94,18 @@ nth-child보다는 **nth-of-tpye**를 추천!<br>
 3. white-space: nowrap; => 텍스트가 접히지 않는다 => 한 줄로만 표현됨
 
 ## 22. 빈 공간을 없앨 때에는 부모 요소를 flex로 바꿔주자
+---------------
+## 23. \&nbsp;
+: html ntt(특수문자) 띄어쓰기
 
+## 24. 요소 회전 transform: rotate()
 
+## 25. css우선순위
+1. 밑에 있을 수록 우선순위가 높다
+2. id가 class보다 우선순위가 높다
+3. 붙인 id/class가 많을 수록
+등...<br>
+3. important를 붙이면 우선순위가 가장 높아진다 ( 뒤에 !important ) => 최후의 수단으로 쓰는게 좋다
 
 
 
