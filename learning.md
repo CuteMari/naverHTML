@@ -45,15 +45,18 @@
 4. position: sticky
 - 스크롤 하지 않을 때는 staic처럼 동작, 스크롤하면 fixed처럼 작동
 -------------------------------------------
-## 11. <a> <button> 
+## 11. \<a> \<button> 
 => 클릭 가능한 요소
 구분: a태그는 다른 페이지로 이동할 때 보통 사용한다. 버튼은 클릭 효과
 
 ## 12. placeholder
 
 ## 13. inline-block의 단점 => 요소들끼리 여백이 생길 수 있음
-=> flex를 사용하면 좋다<br>
-=> align-items, justify-content등.. 크롬 개발자 도구에서 미리보기 가능
+1. flex를 사용하면 좋다<br>
+=> align-items, justify-content등.. 크롬 개발자 도구에서 미리보기 가능<br>
+2. 부모 요소의 font-size를 0으로 설정한 수 요소들의 font-size를 다시 재적용
+3. 요소의 margin 음수로 설정하여 조정함
+
 
 -----------------------------------------------------------
 ## 14. focus-within
@@ -106,7 +109,12 @@ nth-child보다는 **nth-of-tpye**를 추천!<br>
 3. 붙인 id/class가 많을 수록
 등...<br>
 3. important를 붙이면 우선순위가 가장 높아진다 ( 뒤에 !important ) => 최후의 수단으로 쓰는게 좋다
-
+---------------------------
+## 26. 완벽한 격자가 아니어도 grid 사용 가능
+=> css 그리드 합치기 (grid-column, grid-row)<br>
+ex1) grid-column: 1 / 3:  => 1번째 칸에서 3번째 칸 전까지 합친다 (column기준)<br>
+ex2) grid-column: 1 / span 2; => 1번부터 시작해서 두 칸을 차지한다<br>
+만약 한 줄을 다 차지하게 하려면 grid-column: 1 / -1;
 
 
 
